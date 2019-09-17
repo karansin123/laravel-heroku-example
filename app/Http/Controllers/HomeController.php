@@ -26,8 +26,3 @@ class HomeController extends Controller
         return view('home');
     }
 }
-{ 
-    function showHello(){
-        return '<h1>New Controller of : Karansin Khotmungkun</h1>';
-    }
-}
