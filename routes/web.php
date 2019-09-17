@@ -25,4 +25,3 @@ Route::get('users', function () {
 Route::get('showname', function () {
     return '<h1>กรัณศิลป์ โคตรมุงคุณ</h1>';
 });
-Route::('welcome/name', Testcontrol@showHello');
