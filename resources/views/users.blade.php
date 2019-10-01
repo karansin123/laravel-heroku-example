@@ -1,1 +1,6 @@
-
+@extends('master')
+@section('title','Welcome UserView')
+@section('content')
+    <h1>{{$name}}<h1>
+    <h2>{{$tittle}}</h2>
+@stop
