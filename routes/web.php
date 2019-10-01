@@ -18,4 +18,4 @@ Route::get('/homes', function () {
 Route::get('/edit', function () {
     return view('edit');
 });
-Route::get('/show','HelloController@show');
+Route::get('/show','Hellocontroller@show');
