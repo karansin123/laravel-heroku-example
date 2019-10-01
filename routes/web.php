@@ -22,4 +22,6 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('users', function () {
     return '<h1>New Users!</h1>';
 });
-Route::get('showname/{name}','HelloController@showHello');
+Route::get('/edit', function () {
+    return view('home');
+});
