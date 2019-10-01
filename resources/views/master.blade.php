@@ -5,7 +5,7 @@
     <title>@yield('title')</title>
     <style media="screen">
      body{
-      background-color: yellow;
+      background-color: pink;
      }
     </style>
    </head>
