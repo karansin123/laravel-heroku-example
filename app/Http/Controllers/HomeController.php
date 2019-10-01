@@ -6,6 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+    function showHello(){
+        return '<h1>Hello Controller</h1>'
+    }
+{
     /**
      * Create a new controller instance.
      *
