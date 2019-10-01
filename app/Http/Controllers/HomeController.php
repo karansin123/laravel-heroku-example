@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-function showhello($name){
+function showHello($name){
    return '<h1>Hello:'.$name.'</h1>';
    }
 }
