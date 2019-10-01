@@ -22,7 +22,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('users', function () {
     return '<h1>New Users!</h1>';
 });
-Route::get('showname', function () {
-    return '<h1>กรัณศิลป์ โคตรมุงคุณ</h1>';
-});
 Route::get('showname/{name}','HelloController@showHello');
