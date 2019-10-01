@@ -19,3 +19,4 @@ Route::get('/edit', function () {
     return view('edit');
 });
 Route::get('/show','HelloController@show');
+});
