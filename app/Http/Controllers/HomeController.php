@@ -8,7 +8,7 @@ class HomeController extends Controller
 {
      function show(){
        return view('users')
-       ->with('name','Karansin')
+       ->with('name','karansin')
        ->with('title','Laravel tutorial');
   }
 }
