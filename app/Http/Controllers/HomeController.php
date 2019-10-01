@@ -10,5 +10,5 @@ class HelloController extends Controller
        return view('users')
        ->with('name','karansin')
        ->with('title','Laravel tutorial');
-  }
+     }
 }
