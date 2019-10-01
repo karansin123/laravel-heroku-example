@@ -25,3 +25,5 @@ Route::get('users', function () {
 Route::get('/edit', function () {
     return view('home');
 });
+Route::get('/show', function () {
+    return view('home');
