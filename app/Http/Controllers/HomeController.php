@@ -25,3 +25,8 @@ class HomeController extends Controller
         return view('home');
     }
 }
+{
+    function showhello($name){
+        return '<h1>Hello:'.$name.'</h1>';
+    }
+}
