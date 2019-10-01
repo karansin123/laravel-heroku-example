@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-function showHello($name){
-   return '<h1>Hello:'.$name.'</h1>';
-   }
+     function show(){
+       return view('users')
+       ->with('name','Karansin')
+       ->with('title','Laravel tutorial');
+  }
 }
