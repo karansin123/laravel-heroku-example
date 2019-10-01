@@ -22,9 +22,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('users', function () {
     return '<h1>New Users!</h1>';
 });
-Route::get('/edit', function () {
-    return view('home');
-});
 Route::get('showname', function () {
     return view '<h1>Karansin Khotmungkun</h1>';
+});
+Route::get('/edit', function () {
+    return view('home');
 });
