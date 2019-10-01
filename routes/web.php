@@ -25,6 +25,6 @@ Route::get('users', function () {
 Route::get('/edit', function () {
     return view('home');
 });
-Route::get('show', function () {
+Route::get('showname', function () {
     return view '<h1>Karansin Khotmungkun</h1>';
 });
